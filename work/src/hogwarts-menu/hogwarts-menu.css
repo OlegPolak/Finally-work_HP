@@ -1,0 +1,11 @@
+ .hogwarts-card__div {
+     display: flex;
+     justify-content: center;
+     padding: 371px 77px 32px 115px;
+     text-align: center;
+ }
+
+ .hogwarts-card__width {
+     justify-content: center;
+     display: flex;
+ }
