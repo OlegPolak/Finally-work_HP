@@ -1,3 +1,10 @@
+ .hogwarts-section{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
  .hogwarts-card__div {
      display: flex;
      justify-content: center;
@@ -5,7 +12,42 @@
      text-align: center;
  }
 
- .hogwarts-card__width {
-     justify-content: center;
-     display: flex;
+ .hogwarts-card__width { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+ .hogwarts-section__list{
+    display: flex;
+    gap: 20px;
  }
+
+ .hogwarts-card__image{
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+ }
+
+ .hogwarts-section__button{
+    width: 300px;
+    height: 60px;
+    border-radius: 100px;
+    background-color:transparent;
+    border: 2px solid rgb(249, 181, 12) ;
+    color: rgb(249, 181, 12);
+    font-family: Bluu Next Cyrillic;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: color 0.5s, background-color 0.5s;
+ }
+
+  .hogwarts-section__button:hover{
+    background-color: rgb(249, 181, 12);
+    color: rgb(29, 29, 29);
+    border: none;
+  }

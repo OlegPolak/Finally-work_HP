@@ -14,7 +14,9 @@ const Hogwarts = () => {
                                                 src= {require('../image/student.jpeg')} alt="Студенти Хогвартсу"/>
                                         </div>
                                     </article>
-                            
+                                     <div className="hogwarts-section__text-btn">
+                                        <button className="hogwarts-section__button button" type="button"> Студенти Хогвартсу</button>
+                                    </div>
                                 </li>
                                 <li className="hogwarts-card__width">
                                     <article className="hogwarts-card">
@@ -23,6 +25,9 @@ const Hogwarts = () => {
                                                 src= {require('../image/employees.jpeg')} alt="Співробітники Хогвартсу"/>
                                         </div>
                                     </article>
+                                     <div className="hogwarts-section__text-btn">
+                                        <button className="hogwarts-section__button button" type="button"> Співробітники Хогвартсу</button>
+                                     </div>
                                 </li>
                                 <li className="hogwarts-card__width">
                                     <article className="hogwarts-card">
@@ -31,6 +36,9 @@ const Hogwarts = () => {
                                                 src=  {require('../image/student-house.jpeg')}  alt="Персонажі в певному домі"/>
                                         </div>
                                     </article>
+                                     <div className="hogwarts-section__text-btn">
+                                        <button className="hogwarts-section__button button" type="button"> Персонажі в певному домі</button>
+                                    </div>
                                 </li>
                             </ul>
                      </div>
