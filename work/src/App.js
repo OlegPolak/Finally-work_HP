@@ -1,5 +1,7 @@
 import Hero from "./hero/Hero";
 import Hogwarts from "./hogwarts-menu/Hogwarts-menu";
+import Student from "./student/Student";
+import Employees from "./employees/Employees";
 
 function App() {
   return (
@@ -9,6 +11,9 @@ function App() {
 
       <Hogwarts/>
       
+      <Student />
+      
+      <Employees/>
     </div>
   );
 }

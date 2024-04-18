@@ -1,0 +1,84 @@
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    color: rgb(250, 191, 89);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Bluu Next Cyrillic';
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.section-title,.employees {
+    width: 693px;
+}
+
+.student-section__list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.student-card {
+    width: 290px;
+    height: 452px;
+    border-radius: 0px 0px 20px 20px;
+    background: linear-gradient(360.00deg, rgb(15, 15, 15) -0.947%,
+        rgba(15, 15, 15, 0.74) 35.554%,
+        rgba(15, 15, 15, 0) 60.93%);
+    position: relative;
+}
+
+.student-card__image {
+    border-radius: 25px;
+    position: absolute;
+    z-index: -1;
+}
+
+.student-card__div {
+    height: 450px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.student-card__div
+
+.student-card__title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.student-card__text-yelow {
+    color: rgb(250, 191, 89);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.student-card__text-white {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+
